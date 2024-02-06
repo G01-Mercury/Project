@@ -30,4 +30,5 @@ Per domande o feedback, contattaci all'indirizzo email [dani21roby@gmail.com].
 Visita il nostro sito [Mercury](link_al_sito_del_progetto).
 
 ### Testing
-Per utilizzare le funzioni per l'accesso alle API di Google, decommentare i file di testing. Tenere presente che se non sono commentati, potrebbero generare errori nella console di tutti i browser. Il risultato del testing è comunque il seguente: Testing.
+Per utilizzare le funzioni per l'accesso alle API di Google, decommentare i file di testing. Tenere presente che se non sono commentati, potrebbero generare errori nella console di tutti i browser. Il risultato del testing è comunque il seguente: 
+![Testing](img/testing.png)
