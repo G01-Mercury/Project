@@ -9,7 +9,7 @@ Questo è un prototipo di come apparirà il nostro progetto Mercury una volta co
 Per utilizzare il progetto:
 1. Scarica il progetto.
 2. Avvia una connessione localhost.
-3. Utilizza una piattaforma come [ngrok](https://ngrok.com/) per il traffico HTTP. Segui [questo link](https://ngrok.com/download) per installare ngrok e utilizza la loro guida`. In alternativa, puoi utilizzare [questo link](link_a_Mercury) per scaricare Mercury direttamente (nota: il file "node_modules" è stato compresso a causa delle dimensioni eccessive).
+3. Utilizza una piattaforma come [ngrok](https://ngrok.com/) per il traffico HTTP. Segui [questo link](https://ngrok.com/download) per installare ngrok e utilizza il comando nella prompt dei comandi: `ngrok http --domain=bonefish-massive-sincerely.ngrok-free.app 8080`. In alternativa, puoi utilizzare [questo link](link_a_Mercury) per scaricare Mercury direttamente (nota: il file "node_modules" è stato compresso a causa delle dimensioni eccessive).
 
 ### Utilizzo
 In questa anteprima, è possibile:
@@ -30,5 +30,4 @@ Per domande o feedback, contattaci all'indirizzo email [dani21roby@gmail.com].
 Visita il nostro sito [Mercury](link_al_sito_del_progetto).
 
 ### Testing
-Per utilizzare le funzioni per l'accesso alle API di Google, decommentare i file di testing. Tenere presente che se non sono commentati, potrebbero generare errori nella console di tutti i browser. Il risultato del testing è comunque il seguente: 
-![Testing](img/testing.png)
+Per utilizzare le funzioni per l'accesso alle API di Google, decommenta i file di testing. Tieni presente che se non sono commentati, potrebbero generare errori nella console di tutti i browser. Il risultato del testing è comunque il seguente: Testing.

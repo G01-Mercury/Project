@@ -3,13 +3,13 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase
 import { getFirestore, collection, addDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyANAPty9_gSmbL647aweJQxcpkEfXSfAI4",
-  authDomain: "mercury-54d92.firebaseapp.com",
-  projectId: "mercury-54d92",
-  storageBucket: "mercury-54d92.appspot.com",
-  messagingSenderId: "1066288131149",
-  appId: "1:1066288131149:web:4bfc99b0be474efacac004",
-  measurementId: "G-T9J18PR843"
+  apiKey: "AIzaSyAGoB74Ce_Jxe1hkCcQMkyQSEUreH2ntkE",
+  authDomain: "mercury-580ed.firebaseapp.com",
+  projectId: "mercury-580ed",
+  storageBucket: "mercury-580ed.appspot.com",
+  messagingSenderId: "399781289148",
+  appId: "1:399781289148:web:8ab7b6c67927cee361c4b9",
+  measurementId: "G-7532J1B7NJ"
 };
 
 async function saveGoogleDataToFirestore(id, fullName, email, givenName, familyName, picture) {
@@ -38,7 +38,7 @@ async function saveGoogleDataToFirestore(id, fullName, email, givenName, familyN
           });
 
           alert('Dati di Google inseriti con successo');
-          
+          window.location.href = 'sign-up_3.html';
       } catch (error) {
           alert('Errore durante il salvataggio dei dati di Google nel database: ' + error.message);
           console.error('Errore durante il salvataggio dei dati di Google nel database:', error);
